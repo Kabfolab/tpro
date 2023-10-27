@@ -1,0 +1,220 @@
+/* Style for the page header */
+h1 {
+    font-size: 24px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Style for the cart table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+table th,
+table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    color: #333;
+}
+
+@media screen and (max-width: 768px) {
+  /* Reduce the padding and font size of table headers */
+  th {
+    padding: 2px;
+    font-size: 12px;
+  }
+
+  /* Adjust the style for table rows to make them more readable on small screens */
+  tr {
+    display: block;
+    margin-bottom: 20px; /* Add spacing between rows */
+  }
+
+  /* Style for table cells on small screens */
+  td {
+    display: block;
+    text-align: left; /* Adjust text alignment */
+  }
+}
+
+/* Style for the form and details section */
+h3 {
+    font-size: 20px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #194090;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+    margin: 10px 10px 10px 10px;
+}
+ 
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 5px;
+    font-size: 20px;
+}
+.input-group input {
+    height: 32px;
+    width: 95%;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.btn {
+    cursor: pointer;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background: #23585a;
+    border: none;
+    border-radius: 10px;
+}
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Style for Total Price */
+#total-price {
+    font-size: 24px; /* Increase the font size to make it more prominent */
+    font-weight: bold;
+    color: #ff5733; /* Change the color to a noticeable one */
+    margin-top: 20px; /* Add some space between the table and Total Price */
+}
+/* Default styles for larger screens */
+.detl {
+  display: flex;
+  width: 100%;
+  margin-top: 25px;
+}
+
+.arrow {
+  font-size: 24px;
+  color: #ff5733;
+  margin-left: 20px;
+}
+
+/* Media query for screens with a maximum width of 768px (typical for phones) */
+@media screen and (max-width: 768px) {
+	.header {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #194090;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 20px;
+}
+form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+}
+.input-group {
+    margin: 10px 10px 10px 10px;
+}
+ 
+.input-group label {
+    display: block;
+    text-align: left;
+    margin: 5px;
+    font-size: 20px;
+}
+.input-group input {
+    height: 32px;
+    width: 95%;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.btn {
+    cursor: pointer;
+    padding: 12px;
+    font-size: 16px;
+    color: white;
+    background: #23585a;
+    border: none;
+    border-radius: 10px;
+}
+.error {
+    width: 92%;
+    margin: 0px auto;
+    padding: 10px;
+    border: 1px solid #a94442;
+    color: #a94442;
+    background: #f2dede;
+    border-radius: 5px;
+    text-align: left;
+}
+.success {
+    color: #3c763d;
+    background: #dff0d8;
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+  .detl {
+    display:none;
+	}
+	.mp{
+		display:block;
+	}
+}

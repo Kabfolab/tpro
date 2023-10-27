@@ -1,0 +1,313 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+footer {
+    background-color: #193595;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+ .fctw {
+	 display:none;
+ }
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: #193595;
+  color: #fff;
+  padding: 5px;
+}
+
+.flex-container nav {
+  margin-left: 2px;
+  margin-top:25px;
+}
+
+.flex-container nav,
+.flex-container .myslides,
+.flex-container .ml {
+  margin-top:40px;
+  display: inline-block;
+  text-align: center;
+}
+
+
+  .ml li{
+    list-style: none;
+	padding:5px;
+    margin-left: 90px;
+	margin-right: 20px;
+	display:inline-block;
+	
+	}
+ .ml li a{
+text-decoration:none;
+color:white;
+	}
+	.myslidest {
+  text-align:center;
+  display: inline-block;
+  vertical-align: top; /* Adjust vertical alignment if needed */
+  margin: 35px; /* Add some space between the inline-block elements */
+  /* Other styles for the .myslides class */
+}
+.productnamet{
+	text-align:left;
+	margin-left:0px;
+}
+
+ .pricet{
+	 text-align:center;
+ } 
+ .descriptiont{
+	 text-align:center;
+}
+/* Media query for mobile screens */
+@media only screen and (max-width: 600px) {
+  .flex-container {
+    display: none;
+  }
+
+  .fctw {
+    display: block;
+	background-color: #193595;
+    color: #fff;
+    padding: 2px;
+    text-align: center;
+    
+  }
+
+  .pf {
+    display: flex;
+    justify-content: space-between;
+    padding:8px;
+	margin:13px;
+  }
+
+  .navtw,
+  .opn {
+    display: inline-block;
+	margin:13px;
+	padding:8px;
+  }
+
+  .pf,
+  .myslides {
+    display: block;
+  }
+
+.fctw h3 {
+    font-size: 16px; /* Adjust the font size as needed */
+  }
+
+  .container {
+	  margin-left:3px;
+  }
+  .mnu li{
+    list-style: none;
+	
+	}
+ .mnu li a{
+text-decoration:none;
+color:white;
+	}
+  .myslides {
+        max-width: 60%; /* Reduce the image width to fit smaller screens */
+        margin: 0 auto; /* Center the image horizontally with margin on both sides */
+        display: block; /* Make sure it's displayed as a block element for margin to work */
+        height: auto; /* Maintain aspect ratio */
+    }
+	.myslides product_image {
+        max-width: 60%; /* Reduce the image width to fit smaller screens */
+        margin: 0 auto; /* Center the image horizontally with margin on both sides */
+        display: block; /* Make sure it's displayed as a block element for margin to work */
+        height: auto; /* Maintain aspect ratio */
+    }
+	.myslidest {
+        max-width: 90%; /* Reduce the image width to fit smaller screens */
+        margin: 0 auto; /* Center the image horizontally with margin on both sides */
+        display: block; /* Make sure it's displayed as a block element for margin to work */
+        height: auto; /* Maintain aspect ratio */
+    }
+	.myslidest product_imaget {
+        max-width: 90%; /* Reduce the image width to fit smaller screens */
+        margin: 0 auto; /* Center the image horizontally with margin on both sides */
+        display: block; /* Make sure it's displayed as a block element for margin to work */
+        height: auto; /* Maintain aspect ratio */
+    }
+}
+
+.int{
+	margin-top:105px;
+	color:#193560;
+}
+
+.container{
+	margin-left:25px;
+    width: 246px;
+    overflow: hidden;
+}
+.container .text{
+    position: relative;
+    color: #4070F4;
+    font-size: 30px;
+    font-weight: 600;
+}
+.container .text.first-text{
+    color: #985060;
+}
+.text.sec-text:before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: #010718;
+    border-left: 2px solid #4070F4;
+    animation: animate 4s steps(12) infinite;
+}
+@keyframes animate{
+    40%, 60%{
+        left: calc(100% + 4px);
+    }
+    100%{
+        left: 0%;
+    }
+}
+
+	
+	
+	
+  @keyframes splashEffect {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+  .myslideshow-container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .myslides {
+	  
+    display: none;
+    text-align: center;
+    animation: splashEffect 2s ease-in-out infinite;
+  }
+
+  .product_image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  }
+
+  .filenumber {
+    font-size: 14px;
+    color: #666;
+  }
+
+  .productname {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #00c853;
+	text-align:center;
+  }
+
+  .price {
+    font-size: 20px;
+    color: #00c853;
+  }
+
+  .description {
+    font-size: 16px;
+    color: #777;
+    margin-top: 10px;
+  }
+.ic{
+  text-align:center;
+
+left:0
+}
+  
+/* Styles for navigation buttons */
+.navigation {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.navigation .prev {
+  float: left;
+  display: block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 10px; /* Add a little spacing between buttons */
+}
+
+.navigation .next {
+  float: right;
+  display: block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-left: 10px; /* Add a little spacing between buttons */
+}
+
+.navigation .prev:hover,
+.navigation .next:hover {
+  background-color: #0056b3;
+}
+.product_image .irsz{
+	text-align:center;
+}	
+    
+  .int{
+		margin-top:116px;
+	}
+	
+	
+
+	
+.larger-icon {
+      font-size: 24px; /* Increase the font size as desired */
+    }
+	
+	.ico .fa{
+		
+		margin: 0 13px;
+	}
+	/* Add this CSS to style the message container */
+/* Add this CSS to style the message container */
+.message {
+  position: fixed; /* Fixed position */
+  top: 50%; /* Position vertically at the center */
+  left: 50%; /* Position horizontally at the center */
+  transform: translate(-50%, -50%); /* Center the message */
+  background-color: #dff0d8; /* Light green background color */
+  border: 1px solid #3c763d; /* Dark green border */
+  border-radius: 5px;
+  color: #3c763d; /* Dark green text color */
+  padding: 10px; /* Add some padding for spacing */
+  text-align: center; /* Center the text */
+  font-size: 36px; /* Adjust the font size as needed */
+  z-index: 9999; /* Ensure it's on top of other content */
+}
